@@ -1,0 +1,24 @@
+#Event Details
+Miami_Hurricanes lost CFPNC_2026
+Indiana_Hoosiers won CFPNC_2026
+20_January_2026 is_date CFPNC_2026
+27 winning_score CFPNC_2026
+21 losing_score CFPNC_2026
+Carson_Beck played_in CFPNC_2026
+Carson_Beck member Miami_Hurricanes
+
+#Instance Relationships
+CFPNC_2026 instance FootballUS
+Miami_Hurricanes instance SportsTeam
+Indiana_Hoosiers instance SportsTeam
+20_January_2026 instance Day
+27 instance NonnegativeInteger
+21 instance NonnegativeInteger
+Carson_Beck instance Man
+
+#SUMO Hierarchies to Entity
+FootballUS subclass TeamSport subclass Sport subclass Game subclass SocialInteraction subclass IntentionalProcess subclass Process subclass Physical subclass Entity
+SportsTeam subclass Group subclass Agent subclass Object subclass Physical subclass Entity
+Day subclass TimeInterval subclass TemporalEntity subclass Abstract subclass Entity
+NonnegativeInteger subclass Integer subclass RationalNumber subclass RealNumber subclass Number subclass Quantity subclass Abstract subclass Entity
+Man subclass Human subclass CognitiveAgent subclass SentientAgent subclass Agent subclass Object subclass Physical subclass Entity
